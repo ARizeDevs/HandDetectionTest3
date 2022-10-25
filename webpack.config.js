@@ -132,4 +132,10 @@ module.exports = {
     }),
   ].concat(htmlPluginEntries),
   target: 'web',
+
+  experiments: {
+    topLevelAwait: true
+  },
+
+
 };
